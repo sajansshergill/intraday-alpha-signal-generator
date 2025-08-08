@@ -70,6 +70,11 @@ Label:
 
 ---
 
+<img width="1310" height="1150" alt="image" src="https://github.com/user-attachments/assets/bcf06d8d-212e-45b8-aea2-d1ef0cf45c5c" />
+
+---
+
+
 ## ⚙️ Tech Stack
 
 - Python (pandas, numpy)
