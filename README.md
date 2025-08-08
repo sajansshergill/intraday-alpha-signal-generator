@@ -70,33 +70,6 @@ Label:
 
 ---
 
-intraday-alpha-signal-generator/
-│
-├── README.md
-├── data/
-│   ├── raw/               # Raw intraday datasets (e.g., Binance, Polygon)
-│   └── processed/         # Feature-engineered datasets
-│
-├── notebooks/
-│   └── exploratory_analysis.ipynb
-│   └── signal_generation.ipynb
-│   └── signal_evaluation.ipynb
-│
-├── src/
-│   ├── etl.py             # Data loading and cleaning scripts
-│   ├── features.py        # Momentum, RSI, volatility feature engineering
-│   ├── labeling.py        # Logic to label future return signals
-│   └── evaluation.py      # Accuracy, Sharpe ratio, performance evaluation
-│
-├── dashboard/
-│   └── dashboard.ipynb    # Plotly or Streamlit dashboard code
-│
-├── visuals/
-│   └── erd_diagram.png    # ERD or system overview diagram
-│   └── charts/            # Exported plots/images
-│
-├── requirements.txt
-
 ## ⚙️ Tech Stack
 
 - Python (pandas, numpy)
